@@ -1,0 +1,11 @@
+body {
+  background-image: url(../images/crosswalk.png);
+  height: auto;
+}
+
+#vid2 {
+  margin: 0% 20% 0% 20%;
+  padding: 10px;
+  text-align: center;
+}
+  

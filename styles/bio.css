@@ -1,0 +1,70 @@
+
+#bio {
+  background-color: #f0e68c;
+  border: 2px solid #ffd700;
+  margin: 10px 50px 0px 50px;
+  padding: 15px;
+}
+
+strong.bioText {
+  margin: 30px;
+}
+
+fieldset {
+  width: 400px;
+  height: 250px;
+}
+
+#chrisCell {
+  display: table-cell;
+  vertical-align: top;
+}
+#benCell {
+  display: table-cell;
+  vertical-align: top;
+}
+#mattCell {
+  display: table-cell;
+  vertical-align: top;
+}
+
+#chris { 
+  background-image: url(../images/chris_1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: color-burn;
+  -webkit-transition: background-image 3s ease-in-out;
+  transition: background-image 3s ease-in-out;
+}
+#chris:hover {
+  background-image: url(../images/chris_2.jpg);
+}
+
+#ben { 
+  background-image: url(../images/ben_1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: color-burn;
+  width: 250px;
+  height: 400px;
+  -webkit-transition: background-image 3s ease-in-out;
+  transition: background-image 3s ease-in-out;
+}
+#ben:hover {
+  background-image: url(../images/ben_2.jpg);
+}
+
+#matt { 
+  background-image: url(../images/matt_1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-transition: background-image 3s ease-in-out;
+  transition: background-image 3s ease-in-out;
+}
+#matt:hover {
+  background-image: url(../images/matt_2.jpg);
+}
+
