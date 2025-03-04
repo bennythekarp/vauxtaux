@@ -1,0 +1,16 @@
+body {
+  background-image: url(../images/crosswalk.png);
+  height: auto;
+}
+.video-page {
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.video-card {
+  background-color: antiquewhite;
+  padding: 4px;
+  
+}
+  

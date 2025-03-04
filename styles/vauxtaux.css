@@ -1,0 +1,92 @@
+body {
+  background-color: black;
+}
+
+header {
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 30px;
+}
+
+#title {
+  font-family: Copperplate;
+  font-size: 400%;
+  letter-spacing: 30px;
+  text-align: center;
+  padding: 0px;
+  margin: 20px 140px 20px 140px;
+  -webkit-text-stroke-color: white;
+  -webkit-text-stroke-width: 3.45px; 
+}
+
+a {
+  text-decoration: none;
+  color: black; 
+  border-bottom: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #eee8aa;
+}
+
+a.boldLink {
+  font-size: 400%;
+  color: #2f4b4f;
+  -webkit-text-stroke: 3px #dda0dd; /* width and color */	
+}
+
+a.boldLink:hover {
+  /* font-size: 420%; */
+  color: #f5fffa;
+}
+
+nav {
+  background-color: grey;
+  margin: 0% 20% 0% 20%;
+  padding: 10px;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 5px 0px 5px 0px;
+}
+
+nav ul li{
+  display: inline;
+  padding: 5px 10px 5px 10px;
+}
+
+li.selected {
+  font-size: 200%;
+}
+
+#main { 
+  background-image: url(../images/vauxtaux_watchyouwalk_3.jpg);
+  height: 700px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 20%;	
+  margin-right: 20%;
+  border: solid;
+  padding: 10px;
+}
+
+footer {
+  font-family: impact, serif;
+  text-align: center;
+  border-width: 2px;
+  border-color: white;
+  border-style: solid;
+  border-radius: 3em;
+  background-color: grey;
+  padding: 2px;
+  font-size: 80%;
+  position: absolute;
+  bottom: 0px;
+  width: 500px;
+  height: 50px;
+}

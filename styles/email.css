@@ -1,0 +1,34 @@
+#emailForm {
+    background-color: gray;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+  }
+#emailForm div {
+    background-color: rgb(156, 80, 80);
+    padding: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 50%; */
+}
+  
+h2 {
+    display: inline;
+    margin: 1rem;
+}
+
+select#state option h3 {
+    font-style: italic;
+}
+
+.formText {
+    font-family: "Ranchers";
+    font-size: 160%;
+    letter-spacing: 2px;
+    color: #ffa07a;
+    font-weight: bold;
+}

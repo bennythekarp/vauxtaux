@@ -1,0 +1,46 @@
+main.contact-page {
+    display: flex;
+}
+
+#contact {
+    background-color: #aaDAB9;
+    margin: 20px;
+    padding: 15px;
+    flex-basis: 50%;
+}
+div.contact-card {
+    background-color: rgb(156, 80, 80);
+    padding: 1rem;
+}
+
+h2 {
+    font-family: "Ranchers";
+    font-size: 130%;
+    color: #f6bca5;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+  }
+  
+  a.emailLink {
+    font-size: 120%;
+    color: #2f4b4f;	
+  }
+  
+  a.emailLink:hover {
+    color: white;
+  }
+  
+  #emailList {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    position: absolute;
+    bottom: 120px;
+    right: 0px;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  
